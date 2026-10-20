@@ -1,0 +1,12 @@
+# Core
+torch>=2.1,<2.5
+numpy>=1.24
+
+# Tokenizer utilities (Ch. 3)
+tokenizers>=0.15
+
+# Optional: HF Qwen weights for comparison (Ch. 4+)
+transformers>=4.40
+
+# Dev / demo
+tqdm>=4.66
