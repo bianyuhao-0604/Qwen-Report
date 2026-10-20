@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# PyTorch artifacts
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+runs/
+wandb/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+
+# LaTeX build artifacts (if book source is in this repo)
+*.aux
+*.log
+*.out
+*.synctex.gz
+*.fls
+*.fdb_latexmk
+*.bbl
+*.blg
